@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "user_id": "USR38102529",
+      "email": "aarav@company.com",
+      "password_hash": "1c46bca298245a410d66f2264d3f4bc4:fedb2adc447156e50c85358b94855033b482ccf07be2479d9183f16ec3136a872d405db05445d87bd763f1f36b0f8886cc805a9dbe5474a350aeda5230e28d6c",
+      "role": "EMPLOYEE",
+      "ref_id": "EMP001",
+      "created_at": "2026-10-14T13:26:21.026Z"
+    },
+    {
+      "user_id": "USR39616474",
+      "email": "priya@company.com",
+      "password_hash": "b3a92f70ef2de2b0978de233cdc209b2:ebfc548f926be50aec6038437045f12d8ac09c888ae59215dc7d6828c373a409314bf5c0c92bb94ae856a0d7ac6163f03c9b4759e72f29e4a61eaef41a830674",
+      "role": "MANAGER",
+      "ref_id": "MGR001",
+      "created_at": "2026-10-14T13:26:36.164Z"
+    }
+  ],
+  "employees": [
+    {
+      "employee_id": "EMP001",
+      "name": "Aarav Sharma",
+      "email": "aarav@company.com",
+      "department": "Sales",
+      "monthly_salary": 35000,
+      "annual_salary": 420000,
+      "password_hash": "1c46bca298245a410d66f2264d3f4bc4:fedb2adc447156e50c85358b94855033b482ccf07be2479d9183f16ec3136a872d405db05445d87bd763f1f36b0f8886cc805a9dbe5474a350aeda5230e28d6c",
+      "created_at": "2026-10-14T13:26:21.025Z"
+    }
+  ],
+  "managers": [
+    {
+      "manager_id": "MGR001",
+      "name": "Priya Nair",
+      "email": "priya@company.com",
+      "department": "Sales",
+      "password_hash": "b3a92f70ef2de2b0978de233cdc209b2:ebfc548f926be50aec6038437045f12d8ac09c888ae59215dc7d6828c373a409314bf5c0c92bb94ae856a0d7ac6163f03c9b4759e72f29e4a61eaef41a830674",
+      "created_at": "2026-10-14T13:26:36.164Z"
+    }
+  ],
+  "expenses": [],
+  "notifications": [],
+  "sessions": [
+    {
+      "token": "ed2870eb23febac7d4b71d75244ca022a416af2241bf21763b3b6bd8e3c71061",
+      "user_id": "USR38102529",
+      "role": "EMPLOYEE",
+      "ref_id": "EMP001",
+      "created_at": "2026-10-14T13:26:21.026Z",
+      "expires_at": "2026-10-21T13:26:21.026Z"
+    },
+    {
+      "token": "ee6851e933d719df915fe34d35d2ee0da6f88ed780dfb1298767c431d00906a6",
+      "user_id": "USR38102529",
+      "role": "EMPLOYEE",
+      "ref_id": "EMP001",
+      "created_at": "2026-10-14T13:26:25.301Z",
+      "expires_at": "2026-10-21T13:26:25.301Z"
+    },
+    {
+      "token": "e2edefc6895b97a865127412faba72bb2e77b04858c434b740a1b31dfbaba39b",
+      "user_id": "USR39616474",
+      "role": "MANAGER",
+      "ref_id": "MGR001",
+      "created_at": "2026-10-14T13:26:36.164Z",
+      "expires_at": "2026-10-21T13:26:36.164Z"
+    }
+  ]
+}

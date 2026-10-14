@@ -1,0 +1,6 @@
+{
+  "name": "ExpenseFlow",
+  "description": "Professional Employee Expense and Salary Tracking System with role-based access for Employees and Managers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
